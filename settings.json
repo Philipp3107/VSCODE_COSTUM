@@ -1,0 +1,92 @@
+{
+    // editor stuff
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.emptySelectionClipboard": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.detectIndentation": false,
+    "editor.lineNumbers": "relative",
+    "editor.guides.indentation": false,
+    "editor.hover.delay": 800,
+    "editor.hover.enabled": true,
+    "editor.matchBrackets": "never",
+    "editor.colorDecorators": false,
+    "editor.lightbulb.enabled": "off",
+    "editor.selectionHighlight": false,
+    "editor.overviewRulerBorder": false,
+    "editor.renderLineHighlight": "none",
+    "editor.occurrencesHighlight": "off",
+    "editor.renderControlCharacters": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+
+    //diffEditor stuff
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+
+    //workbench stuff
+    "workbench.editor.enablePreview": false,
+    "workbench.colorTheme": "Catppuccin Noctis Macchiato",
+    "workbench.iconTheme": "vs-seti",
+    "workbench.editor.showTabs": "none",
+    "workbench.tips.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.location": "hidden",
+    "workbench.sideBar.location": "right",
+
+    //window stuff
+    "window.newWindowDimensions": "inherit",
+    "window.nativeFullScreen": true,
+
+    //file stuff
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+
+    // scm stuff
+    "scm.diffDecorations": "none",
+
+    //git stuff
+    "git.decorations.enabled": false,
+
+    //explorer stuff
+    "explorer.sortOrder": "filesFirst",
+    "cmake.pinnedCommands": [
+      "workbench.action.tasks.configureTaskRunner",
+      "workbench.action.tasks.runTask"
+    ],
+
+    //terminal stuff
+    "terminal.explorerKind": "external",
+    "terminal.external.osxExec": "iTerm.app",
+
+    // general stuff
+    "breadcrumbs.enabled": false,
+    "cmake.showOptionsMovedNotification": false,
+    "problems.decorations.enabled": false,
+    "svg.preview.mode": "svg",
+    "files.associations": {
+      "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+      "strings": "on"
+    },
+    "prettier.bracketSameLine": false,
+    "C_Cpp.default.compilerPath": "/usr/bin/clang",
+
+    "vscode_custom_css.imports": [
+      "file:///Users/philippkotte/vscode customisations/vscode_custom.css",
+      "file:///Users/philippkotte/vscode customisations/vscode-script.js"
+  ],
+  "workbench.editor.empty.hint": "hidden",
+
+  }
